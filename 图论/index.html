@@ -39,7 +39,7 @@
         }
     };
 </script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+<script id="MathJax-script" async src="../docs/extra_js/tex-mml-chtml.js">
 </script>
 
     
@@ -51,6 +51,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../extra_css/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -497,10 +499,10 @@ V(G)，E(G)分别表示G的顶点集和边集。
     若vi＝vj，则称ek为D中的环。
 无论在无向图中还是在有向图中，无边关联的顶点均称为孤立点。 </p>
 <p>设无向图G＝<V，E>，vi，vj∈V，ek，el∈E。
-    若$\exist$et∈E，使得et＝(vi，vj)，则称vi与vj是相邻的。
+    若$\exists$et∈E，使得et＝(vi，vj)，则称vi与vj是相邻的。
     若ek与el至少有一个公共端点，则称ek与el是相邻的。 
 设有向图D＝<V，E>，vi，vj∈V，ek，el∈E。
-    若$\exist$et∈E，使得et＝<vi，vj>，则称vi为et的始点，vj为et的终点，并称vi邻接到vj，vj邻接于vi。
+    若$\exists$et∈E，使得et＝<vi，vj>，则称vi为et的始点，vj为et的终点，并称vi邻接到vj，vj邻接于vi。
     若ek的终点为el的始点，则称ek与el相邻。</p>
 <p>设无向图G＝<V，E>，$\forall$v∈V，
     称{u|u∈V∧(u,v)∈E∧u≠v}为v的邻域，记做$N_G(v)$。
@@ -617,6 +619,8 @@ $$</p>
     
     
       <script src="../assets/javascripts/bundle.3a4b43e5.min.js"></script>
+      
+        <script src="../extra_js/tex-mml-chtml.js"></script>
       
     
   </body>
