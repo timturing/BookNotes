@@ -1,1 +1,6 @@
-site_name: My Docs
+site_name: My BookNotes
+theme:
+	name: 'material'
+nav:
+	- Home:index.md
+	- First:first.md
